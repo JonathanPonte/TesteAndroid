@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher_round"
+        />
+
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+        android:text="@string/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+        <EditText
+            android:id="@+id/campoMatricula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+            <TextView
+        android:text="@string/text2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+        <EditText
+            android:id="@+id/campoSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/botaoLogin"
+            android:layout_margin="30dp"
+            android:paddingLeft="100dp"
+            android:paddingRight="100dp"
+            android:text="@string/text3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+
+</LinearLayout>

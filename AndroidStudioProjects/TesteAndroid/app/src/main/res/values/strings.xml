@@ -1,0 +1,7 @@
+<resources>
+    <string name="text1">Matricula</string>
+    <string name="text2">Senha</string>
+    <string name="text3">Login</string>
+    <string name="app_name">Teste</string>
+    <string name="label_sair">Sair</string>
+</resources>
